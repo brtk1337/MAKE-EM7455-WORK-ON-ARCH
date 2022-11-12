@@ -1,0 +1,2 @@
+IF YOU TRY TO SETUP EM7455 ON ARCH AND MMCLI SHOWS YOU INVALIDTRANSITION ERROR, THEN TRY THIS:
+ln -sf /usr/share/ModemManager/fcc-unlock.available.d/1199 /etc/ModemManager/fcc-unlock.d/1199:9079
